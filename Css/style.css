@@ -1,6 +1,7 @@
 
 }
 html {
+    width: 100%;
     height: 100%;
 }
 * {
@@ -11,6 +12,7 @@ body {
     font: normal 90% Arial, Helvetica, sans-serif;
     color: #000;
     background-color: darkgray;
+    width: 940px;
 }
 /* tell the browser to render HTML elements as block */
 
@@ -166,6 +168,7 @@ ul#nav li:hover a {
 }
 #topimage_container {
     height: 270px;
+    width: 940px;
     background: lightgray;
     padding-top: 10px;
 }
@@ -173,12 +176,14 @@ ul#nav li:hover a {
     width: 940px;
     height: 250px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 /* styling for the topimageon the homepage */
 
 ul.topimage {
     list-style: none;
-    width: 940px;
+    width: 100%;
     height: 250px;
     overflow: hidden;
     position: relative;
