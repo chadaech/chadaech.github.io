@@ -132,9 +132,9 @@ nav {
 #menubar {
     width: 940px;
     height: 55px;
-    padding-top: 10px;
+    padding: 10px;
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
 }
 ul#nav {
     margin: auto;
@@ -149,10 +149,10 @@ ul#nav li {
 ul#nav li a {
     float: left;
     font: bold 130%, Arial, sans-serif;
-    height: 24px;
+    height: 25px;
     margin: 8px 20px 0 0;
     text-shadow: 0px 1px 0px #000;
-    padding: 10px;
+    padding: 0px;
     background: transparent;
     border-radius: 7px;
     text-align: center;
@@ -168,7 +168,7 @@ ul#nav li:hover a {
 #topimage_container {
     height: 270px;
     background: lightgray;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .topimage {
     width: 940px;
@@ -253,7 +253,7 @@ ul img {
 }
 footer {
     width: 940px;
-    height: 50px;
+    height: 150px;
     padding-top: 40px;
     font-weight: bold;
     text-align: center;
@@ -350,31 +350,3 @@ footer a:hover {
     border-radius: 15px;
 }
 /* Style all font awesome icons */
-.fa {
-    float: right;
-    padding: 20px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius:15px;
-    margin:auto;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
