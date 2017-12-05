@@ -1,5 +1,4 @@
-@font-face {
-    font-family: sans-serif;
+
 }
 html {
     height: 100%;
@@ -111,7 +110,7 @@ header {
 nav {
     height: 60px;
 }
-#strapline {
+#title{
     width: 940px;
     height: 80px;
     text-align: center;
