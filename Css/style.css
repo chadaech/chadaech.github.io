@@ -165,19 +165,19 @@ ul#nav li:hover a {
     background: gray;
     text-shadow: none;
 }
-#slideshow_container {
+#topimage_container {
     height: 270px;
     background: lightgray;
     padding-top: 20px;
 }
-.slideshow {
+.topimage {
     width: 940px;
     height: 250px;
     margin: 0 auto;
 }
-/* styling for the slideshow on the homepage */
+/* styling for the topimageon the homepage */
 
-ul.slideshow {
+ul.topimage {
     list-style: none;
     width: 940px;
     height: 250px;
@@ -185,20 +185,20 @@ ul.slideshow {
     position: relative;
     border-radius: 15px;
 }
-ul.slideshow li {
+ul.topimage li {
     position: absolute;
     margin: 0;
     padding: 0;
     left: 0;
     right: 0;
 }
-ul.slideshow li.show {
+ul.topimage li.show {
     z-index: 500;
 }
 ul img {
     border: none;
 }
-#slideshow-caption {
+#topimage-caption {
     width: 940px;
     height: 38px;
     position: absolute;
@@ -207,7 +207,7 @@ ul img {
     z-index: 500;
 
 }
-#slideshow-caption p {
+#topimage-caption p {
     padding: 0;
     font: normal 130% arial, sans-serif;
     color: #FFF;
