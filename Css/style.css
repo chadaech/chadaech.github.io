@@ -1,8 +1,10 @@
-
+@font-face {
+    font-family: sans-serif;
 }
 html {
-    width: 100%;
-    height: 100%;
+  
+  width:100%;
+    height: auto;
 }
 * {
     margin: 0;
@@ -12,7 +14,6 @@ body {
     font: normal 90% Arial, Helvetica, sans-serif;
     color: #000;
     background-color: darkgray;
-    width: 940px;
 }
 /* tell the browser to render HTML elements as block */
 
@@ -168,7 +169,6 @@ ul#nav li:hover a {
 }
 #topimage_container {
     height: 270px;
-    width: 940px;
     background: lightgray;
     padding-top: 10px;
 }
@@ -176,14 +176,12 @@ ul#nav li:hover a {
     width: 940px;
     height: 250px;
     margin: 0 auto;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 /* styling for the topimageon the homepage */
 
 ul.topimage {
     list-style: none;
-    width: 100%;
+    width: 940px;
     height: 250px;
     overflow: hidden;
     position: relative;
@@ -354,15 +352,3 @@ footer a:hover {
     border-radius: 15px;
 }
 /* Style all font awesome icons */
-
-* {
-    box-sizing: border-box;
-}
-.menu {
-    width: 25%;
-    float: left;
-}
-.main {
-    width: 75%;
-    float: left;
-}
