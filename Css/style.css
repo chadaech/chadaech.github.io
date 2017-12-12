@@ -2,8 +2,7 @@
     font-family: sans-serif;
 }
 html {
-  
-  width:100%;
+    width: 100%;
     height: auto;
 }
 * {
@@ -113,7 +112,7 @@ header {
 nav {
     height: 60px;
 }
-#title{
+#title {
     width: 940px;
     height: 80px;
     text-align: center;
@@ -207,7 +206,6 @@ ul img {
     bottom: 0;
     left: 0;
     z-index: 500;
-
 }
 #topimage-caption p {
     padding: 0;
@@ -254,7 +252,6 @@ ul img {
     float: left;
 }
 footer {
-    width: center;
     height: 150px;
     padding-top: 40px;
     font-weight: bold;
@@ -265,7 +262,6 @@ footer {
     border-radius: 15px 15px 15px 15px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
