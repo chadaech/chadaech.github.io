@@ -254,7 +254,7 @@ ul img {
     float: left;
 }
 footer {
-    width: 940px;
+    width: center;
     height: 150px;
     padding-top: 40px;
     font-weight: bold;
@@ -265,83 +265,9 @@ footer {
     border-radius: 15px 15px 15px 15px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
 }
-footer a,
-footer a:hover {
-    text-shadow: 1px 1px #FFF;
-    color: #1D1D1D;
-    text-decoration: none;
-    padding-bottom: 20px;
-}
+
 footer a:hover {
     text-decoration: underline;
-}
-footer a,
-footer a:hover {
-    text-shadow: 1px 1px #000;
-    color: #FFF;
-    text-decoration: none;
-}
-footer a:hover {
-    text-decoration: underline;
-}
-.readmore a {
-    color: #FFF;
-    text-shadow: 1px 1px #004C8C;
-}
-.button_small {
-    font: normal 110% sans-serif;
-    float: left;
-    height: 15px;
-    padding: 5px 10px 7px 8px;
-    background: blue;
-    border-radius: 15px 15px 15px 15px;
-}
-.button_small a {
-    color: #FFF;
-    padding-left: 5px;
-    text-shadow: 1px 1px #000;
-}
-.form_settings {
-    margin: 15px 0 0 0;
-}
-.form_settings p {
-    padding: 0 0 4px 0;
-}
-.form_settings span {
-    float: left;
-    width: 280px;
-    text-align: left;
-    text-shadow: none;
-    color: #000;
-}
-.form_settings input,
-.form_settings textarea {
-    padding: 2px;
-    width: 299px;
-    font: 100% arial;
-    border: 1px solid #E5E5DB;
-    background: #FFF;
-    color: #47433F;
-}
-.form_settings input[type="checkbox"] {
-    padding: 2px 0;
-    width: 15px;
-    font: 100% arial;
-    border: 0;
-    background: #FFF;
-    color: #47433F;
-    margin: 28px 0;
-}
-.form_settings .submit {
-    font: 100% arial;
-    border: 1px solid;
-    width: 99px;
-    margin: 0 0 0 206px;
-    height: 26px;
-    padding: 2px 0 3px 0;
-    cursor: pointer;
-    background: #0043A8;
-    color: #FFF;
 }
 .textbox {
     font: normal 110% sans-serif;
